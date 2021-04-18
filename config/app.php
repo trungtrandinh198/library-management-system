@@ -174,6 +174,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        /*
+         * Laravel 5 Repositories
+         */
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
 
     ],
 
